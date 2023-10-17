@@ -1855,18 +1855,23 @@ FW_VERSIONS = {
   },
   CAR.ELANTRA_2022_NON_SCC: {
     (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00OS  MDPS C 1.00 1.05 56310J9030\x00 4OSDC105
       b'\xf1\x8756310AA030\x00\xf1\x00CN7 MDPS C 1.00 1.06 56310AA030\x00 4CNDC106',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00OS9 LKAS AT USA LHD 1.00 1.00 95740-J9200 g30
       b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.01 99210-AB000 210205',
     ],
     (Ecu.abs, 0x7d1, None): [
+      b'\xf1\x00\x00\x00\x00\x00\x00\x00
       b'\xf1\x8758910-AB500\xf1\x00CN ESC \t 100 \x06\x01 58910-AB500',
     ],
     (Ecu.transmission, 0x7e1, None): [
+      b'\xf1\x006T6J0_C2\x00\x006T6K1051\x00\x00TOS4N20NS2\x00\x00\x00\x00
       b'\xf1\x87CXNQEM4091445JB3g\x98\x98\x89\x99\x87gv\x89wuwgwv\x89hD_\xffx\xff\xff\xff\x86\xeb\xf1\x89HT6VA640A1\xf1\x82CCN0N20NS5\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.engine, 0x7e0, None): [
+      b'\xf1\x8161699051\x00\x00\x00\x00\x00\x00\x00\x00
       b'\xf1\x870\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x82CNDWD0ANF3XCSG8A',
     ],
   },
